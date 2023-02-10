@@ -25,19 +25,24 @@
 
 > You can use comments to truncate a query and remove the portion of the original query that follows your input.
 
-**Oracle** :: --comment                                                                     <br>
-**Microsoft** :: --comment or /✶comment✶/                                                   <br>
-**PostgreSQL** :: --comment or /✶comment✶/                                                  <br>
-**MySQL**	:: #comment or -- comment or /✶comment✶/ [Note the space after the double dash]   <br>
+**Oracle** :: --comment                                         <br>
+**Microsoft** :: --comment                                      <br>
+**Microsoft** :: /✶comment✶/                                    <br>
+**PostgreSQL** :: --comment                                     <br>
+**PostgreSQL** :: /✶comment✶/                                   <br>
+**MySQL**	:: #comment                                           <br>
+**MySQL**	:: /✶comment✶/                                        <br>
+**MySQL**	:: -- comment [Note the space after the double dash]  <br>
 
 # Database version
 
 > You can query the database to determine its type and version. This information is useful when formulating more complicated attacks.
 
-**Oracle**  :: SELECT banner FROM v$version or SELECT version FROM v$instance   <br>
-**Microsoft** :: SELECT @@version                                               <br>
-**PostgreSQL** :: SELECT version()                                              <br>
-**MySQL** :: SELECT @@version                                                   <br>
+**Oracle**  :: SELECT banner FROM v$version   <br>
+**Oracle**  :: SELECT version FROM v$instance <br>
+**Microsoft** :: SELECT @@version             <br>
+**PostgreSQL** :: SELECT version()            <br>
+**MySQL** :: SELECT @@version                 <br>
 
 # Database contents
 
