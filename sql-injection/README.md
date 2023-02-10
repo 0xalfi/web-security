@@ -26,8 +26,8 @@
 > You can use comments to truncate a query and remove the portion of the original query that follows your input.
 
 **Oracle** :: --comment                                                                         <br>
-**Microsoft** :: --comment or /***comment***/                                                   <br>
-**PostgreSQL** :: --comment or /***comment***/                                                  <br>
+**Microsoft** :: --comment or /* comment */                                                   <br>
+**PostgreSQL** :: --comment or /* comment */                                                  <br>
 **MySQL**	:: #comment or -- comment or /***comment***/ [Note the space after the double dash]   <br>
 
 # Database version
