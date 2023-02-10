@@ -1,5 +1,7 @@
 # SQL Injection Cheatsheet
 
+[Original Link](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+
 > This SQL injection cheat sheet contains examples of useful syntax that you can use to perfrom a variety of tasks that often arise when performing SQL injection attacks.
 
 # String Concatenation
