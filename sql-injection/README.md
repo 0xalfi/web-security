@@ -1,6 +1,6 @@
 # SQL Injection Cheatsheet
 
-[Original Link](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+[Original Link](https://portswigger.net/web-security/sql-injection/cheat-sheet "cheat sheet sql injection")
 
 > This SQL injection cheat sheet contains examples of useful syntax that you can use to perfrom a variety of tasks that often arise when performing SQL injection attacks.
 
