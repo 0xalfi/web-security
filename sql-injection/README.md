@@ -43,8 +43,12 @@
 
 > You can list the tables that exist in the database, and the columns that those tables contain.
 
-**Oracle** :: SELECT * FROM all_tables or SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME-HERE'                                <br>
-**Microsoft** :: SELECT * FROM information_schema.tables or SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   <br>
-**PostgreSQL** :: SELECT * FROM information_schema.tables or SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'  <br>
-**MySQL** :: SELECT * FROM information_schema.tables or SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'       <br>
+**Oracle** :: SELECT * FROM all_tables                                                          <br>
+**Oracle** :: SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME-HERE'                <br>
+**Microsoft** :: SELECT * FROM information_schema.tables                                        <br>
+**Microsoft** :: SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'  <br>
+**PostgreSQL** :: SELECT * FROM information_schema.tables                                       <br>
+**PostgreSQL** :: SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE' <br>
+**MySQL** :: SELECT * FROM information_schema.tables                                            <br>
+**MySQL** :: SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'      <br>
 
